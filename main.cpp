@@ -2,14 +2,14 @@
 
 using namespace std;
 
-int main() {
+int main(){
     unsigned int base;
     unsigned int altura;
 
     cin >> base;
     cin >> altura;
 
-    cout << (base * altura)/2 << endl;
+    cout <<"area: "<< (base * altura)/2 << endl;
 
     return 0;
 }
